@@ -1,0 +1,28 @@
+h1{
+	color: darkgreen;
+	font-family: monospace;
+	text-align: center;
+}
+
+h2{
+	background-color: darkgreen;
+	font-family: verdana;
+	text-align: center;
+	color: white;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.column {
+	float: left;
+	width: 33.33%
+	padding: 40px;
+}
+
+.row::after{
+	content: " ";
+	clear: both;
+	display: table;
+}
